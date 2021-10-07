@@ -1,4 +1,4 @@
-package aula2.exemplo2;
+package aula02.exemplo2;
 
 public class Carro {
 		String modelo;
