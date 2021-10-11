@@ -19,7 +19,7 @@ public class CarroTeste {
 		carro2.ligar();
 		carro2.acelerar(40);
 		carro2.frear(20);
-		carro2.frear(20);
+		carro2.frear(25);
 		carro2.ligar();
 		carro2.desligar();
 		
