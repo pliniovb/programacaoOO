@@ -12,8 +12,19 @@ public class Pessoa {
 		this.idade = idade;
 		this.peso = peso;
 		this.estadoCivil = "Solteiro(a)";
-		System.out.println("EXEC");
+		//System.out.println("EXEC");
 		
+	}
+	public Pessoa() {
+		this("João da Silva", 18, 50.0);
+	}
+	
+	public Pessoa(String nome) {
+		this(nome,18, 50.0);
+	}
+	
+	public Pessoa(int idade) {
+		this("João da Silva", idade, 50.0);
 	}
 	
 	public void falar() {
