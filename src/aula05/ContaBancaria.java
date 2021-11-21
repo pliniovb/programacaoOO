@@ -38,4 +38,22 @@ public class ContaBancaria {
 		this.saldo *= 1.10;
 		System.out.println("calc");
 	}
+
+	public String getTitular() {
+		return titular;
+	}
+
+	public void setTitular(String titular) {
+		if(!titular.equals("")) {
+		this.titular = titular;
+		}
+	}
+
+	public int getNumeroConta() {
+		return numeroConta;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
 }
