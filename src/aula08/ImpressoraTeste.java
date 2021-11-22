@@ -19,13 +19,27 @@ public class ImpressoraTeste {
 		switch(opcao) {
 			
 		case 1:
+			//Upcasting
 			impressora = new JatoDeTinta();
 			break;
 		case 2:
+			//Upcasting
 			impressora = new Laser();
 			break;
 		}
 		impressora.imprimir();
+		System.out.println("+++++++++++");
+		
+		if(impressora instanceof JatoDeTinta) {
+			//Downcasting
+			JatoDeTinta jatoDeTinta = (JatoDeTinta) impressora;
+			jatoDeTinta.imprimir();
+		}else if(impressora instanceof Laser) {
+			//Downcasting
+			Laser laser1 = (Laser) impressora;
+			laser1.imprimir();
+				
+		}
 			
 	}
 }
