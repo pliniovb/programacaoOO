@@ -35,7 +35,7 @@ public class ImpressoraTeste {
 			JatoDeTinta jatoDeTinta = (JatoDeTinta) impressora;
 			jatoDeTinta.imprimir();
 		}else if(impressora instanceof Laser) {
-			//Downcasting
+			//Downcasting	
 			Laser laser1 = (Laser) impressora;
 			laser1.imprimir();
 				
